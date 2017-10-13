@@ -1,0 +1,18 @@
+{
+    "name": "Lab 0",
+    "endpoint": "cal/cs61a/fa17/lab00",
+    "src": [
+        "lab00.py"
+    ],
+    "tests": {
+        "lab00.py:twenty_seventeen": "doctest"
+    },
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}
