@@ -1,0 +1,21 @@
+{
+    "name": "Homework 8",
+    "endpoint": "cal/cs61a/fa17/hw08",
+    "src": [
+        "hw08.py"
+    ],
+    "tests": {
+        "hw08.py": "doctest"
+    },
+    "default_tests": [
+        "survey"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "unlock",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
